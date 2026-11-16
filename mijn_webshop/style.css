@@ -14,6 +14,29 @@
     padding: 20px;/* padding: 20px; */
 }
 
+.gianni-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.gianni-item {
+    width: 180px;
+    border: 1px solid #ccc;
+    background: #f9f1ff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gianni-item img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 10px;
+}
+
 #footer {
     background-color: #614168;
     min-height: 100px;
