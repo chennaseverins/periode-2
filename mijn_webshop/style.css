@@ -27,6 +27,19 @@
     background: #f9f1ff;
     padding: 10px;
     box-sizing: border-box;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.gianni-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.gianni-link:hover .gianni-item,
+.gianni-link:focus-visible .gianni-item {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px #61416840;
 }
 
 .gianni-item img {
@@ -35,6 +48,59 @@
     height: 150px;
     object-fit: cover;
     margin: 0 auto 10px;
+}
+
+.gianni-item h3 {
+    margin: 0 0 10px;
+}
+
+.bekijk-product {
+    color: #614168;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.product-detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+    background: #f9f1ff;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.product-detail img {
+    display: block;
+    width: min(100%, 420px);
+    height: auto;
+    object-fit: contain;
+}
+
+.product-info {
+    flex: 1;
+}
+
+.terug-link {
+    color: #44204f;
+}
+
+.product-fout {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .product-detail {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-detail img {
+        width: 100%;
+    }
 }
 
 #footer {
