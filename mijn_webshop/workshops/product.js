@@ -30,10 +30,10 @@ const producten = {
         beschrijving: "Deze Cookie Gianni is zoet, vrolijk en perfect voor een speelse toevoeging aan je collectie."
     },
     "jar-janni": {
-        naam: "Jar Janni",
+        naam: "Jar gianni",
         prijs: "€17.49",
         afbeelding: "workshop 3/fotos/jar janni.png",
-        beschrijving: "Deze Jar Janni valt op met een unieke, potachtige uitstraling en een verrassend karakter."
+        beschrijving: "Deze Jar gianni valt op met een unieke, potachtige uitstraling en een verrassend karakter."
     }
 };
 
