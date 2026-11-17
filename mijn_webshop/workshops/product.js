@@ -29,7 +29,7 @@ const producten = {
         afbeelding: "workshop 3/fotos/cookie gianni.png",
         beschrijving: "Deze Cookie Gianni is zoet, vrolijk en perfect voor een speelse toevoeging aan je collectie."
     },
-    "jar-janni": {
+    "jar-gianni": {
         naam: "Jar gianni",
         prijs: "€17.49",
         afbeelding: "workshop 3/fotos/jar janni.png",
