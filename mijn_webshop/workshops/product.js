@@ -22,6 +22,18 @@ const producten = {
         prijs: "€9.99",
         afbeelding: "workshop 3/fotos/foto's 2/sleepy gianni.png",
         beschrijving: "Deze slaperige Gianni is een rustige en schattige toevoeging aan je verzameling."
+    },
+    cookie: {
+        naam: "Cookie Gianni",
+        prijs: "€12.99",
+        afbeelding: "workshop 3/fotos/cookie gianni.png",
+        beschrijving: "Deze Cookie Gianni is zoet, vrolijk en perfect voor een speelse toevoeging aan je collectie."
+    },
+    "jar-janni": {
+        naam: "Jar Janni",
+        prijs: "€17.49",
+        afbeelding: "workshop 3/fotos/jar janni.png",
+        beschrijving: "Deze Jar Janni valt op met een unieke, potachtige uitstraling en een verrassend karakter."
     }
 };
 
